@@ -1,0 +1,28 @@
+.sectionFooter{
+    background: url('/img/bg/bgf.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .lineInfo{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0 0 0;
+        @media screen and (max-width:991px){
+            flex-direction: column;
+            height: 250px;
+        }
+        li{
+            a{
+                color: #fff;
+            }
+            &.phonennee{
+                @media screen and (max-width:991px){
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

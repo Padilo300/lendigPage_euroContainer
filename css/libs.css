@@ -1,0 +1,156 @@
+.navigationPhoneBtn .dropdown-menu {
+  display: block !important;
+  background: transparent !important;
+  border: 0 !important;
+  transform: none !important;
+  position: initial !important;
+  padding: 0 !important;
+  min-width: 50% !important;
+  margin: 0 !important;
+}
+
+.navigation .col-lg-5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.navigationPhoneBtn .dropdown-toggle-split {
+  display: none;
+}
+
+.navigationPhoneBtn .btn-group {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.navigationPhoneBtn .btn-group .dropdown-menu .phone {
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.cardButton span {
+  display: none;
+}
+
+button,
+.download,
+.customerCarouselSlick,
+.carousel,
+.scroll-top-wrap,
+.contacts-form,
+.navigationContein,
+.zinaDesign,
+.footer hr,
+.footerInfoContact {
+  display: none !important;
+}
+
+.znak:before {
+  background: transparent !important;
+}
+
+.containers {
+  margin-top: 330px;
+}
+
+.card {
+  max-width: 31.5% !important;
+  margin-bottom: 0 !important:;
+}
+
+.card:nth-of-type(7),
+.card:nth-of-type(8),
+.card:nth-of-type(9) {
+  margin-top: 30px !important;
+}
+
+.card[data-id="10"],
+.card[data-id="11"],
+.card[data-id="12"],
+.card[data-id="13"],
+.card[data-id="14"],
+.card[data-id="15"] {
+  height: 540px !important;
+}
+
+#cont240,
+#cont120 {
+  margin-top: -70px !important;
+}
+
+.print {
+  display: block !important;
+  padding-top: 50px;
+}
+
+#print {
+  flex-direction: column !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+#print .carousel {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  background-size: 100% 100% !important;
+}
+
+#print .carousel img {
+  width: 150px !important;
+}
+
+#contact {
+  margin-top: 100px !important;
+  padding-top: 50px !important;
+}
+
+.formBlocks {
+  width: 100% !important;
+}
+
+.formBlocksItem:nth-of-type(1) {
+  width: 100%;
+}
+
+.formBlocksItem:nth-of-type(1) p {
+  width: 75% !important;
+  margin: -50px auto 50px !important;
+}
+
+.modalFooter {
+  display: block !important;
+  margin-top: 50px !important;
+}
+
+.map div {
+  width: 100% !important;
+}
+
+.map div iframe {
+  width: 100% !important;
+}
+
+.footerInfoMap {
+  width: 100% !important;
+}
+
+.services {
+  background: #fff !important;
+  color: #000 !important;
+  margin-top: -200px !important;
+}
+
+.services h5,
+p {
+  font-weight: 600;
+}
+
+.services .card-img-top .st6 {
+  fill: #259eb3 !important;
+}

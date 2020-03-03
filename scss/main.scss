@@ -1,0 +1,41 @@
+// переменные
+@import "variable/variable"   ; 
+
+
+// special animation->placeholder; castom browserScrollBar
+@import "special/special.scss"      ;
+@import "special/placeholder.scss"  ;
+
+// head
+@import "head/header"       ;
+@import "head/mobile_nav"   ;
+@import "head/nav"          ;
+
+// body 
+@import 'body/button/button';
+@import 'body/form/form'    ;
+@import 'body/text/text'    ;
+
+// footer
+@import 'footer/footer'     ;
+
+// pages HOME
+@import 'pages/home/first_section'      ;
+@import 'pages/home/sectionTwo'         ;
+@import 'pages/home/SectionSpecial'     ;
+@import 'pages/home/sectionYes'         ;
+@import 'pages/home/sectionProduct'     ;
+@import 'pages/home/sectionAlert'       ;
+@import 'pages/home/sectionAlertText'   ;
+@import 'pages/home/sectionSklad'       ;
+@import 'pages/home/sectionFidBack'     ;
+
+
+// special
+@import 'special/theme_style.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+body{
+    background: #fff;
+    font-family: $themeFont !important;
+}

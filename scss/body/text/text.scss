@@ -1,0 +1,92 @@
+.title--img{
+    max-width: 620px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 80px;
+    @media screen and (max-width:767px){
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        font-size: 2em;
+        line-height: 45px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+    }
+}
+.textAndFlag{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    @media screen and (max-width:767px){
+        justify-content: center;
+    }
+    p{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        padding: 13px 13px 13px 0;
+        span{
+            .big{
+                font-weight: 900;
+                font-size: 17px;
+            }
+        }
+    }
+}
+.textInfo{
+    position: relative;
+    max-width: 320px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-top: 15px;
+    line-height: 25px;
+    @media screen and (max-width:767px){
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+}
+
+.title--blue{
+    color: #16115a;
+    font-family: $themeFont;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    @media screen and (max-width: 767px){
+        font-size: 2em;
+    }
+}
+.title--fff{
+    @extend .title--blue;
+    color: #fff;
+}
+.subTitle{
+    color: #16115a;
+    font-family: $themeFont;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.titleBlue2{
+    color: #16115a;
+    font-family: "Lato", sans-serif;
+    font-size: 2.1em;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 40px auto 40px auto;
+    @media screen and (max-width: 767px){
+        font-size: 1em;
+    }
+}

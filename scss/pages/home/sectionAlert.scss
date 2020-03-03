@@ -1,0 +1,32 @@
+.sectionAlert{
+    background: #080735;
+    min-height: 208px;
+    .alertTitle{
+        color: #fbb700;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+        @media screen and (max-width:826px){
+            display: block;
+            text-align: center;
+
+        }
+        img{
+            display: block;
+            max-width: 100%;
+            min-width: 145px;
+            
+            @media screen and (max-width:826px){
+                margin: 0 auto;
+            }
+        }
+        h1{
+            font-size: 3rem;
+            font-weight: 900;
+            @media screen and (max-width:826px){
+                font-size: 2rem;
+            }
+        }
+    }
+}
